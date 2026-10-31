@@ -1,0 +1,47 @@
+
+command:
+  - bash
+  - -c
+  - |
+    set -e
+
+    uv sync
+
+    exec uv run --no-sync blackbar-mcp
+
+env:
+  - name: BLACKBAR_MODEL_ENDPOINT
+    value: "system.ai.claude-opus-4-8"
+
+  - name: BLACKBAR_WAREHOUSE_ID
+    value: "08925416bd84344a"
+
+  - name: BLACKBAR_PARSER_VERSION
+    value: "2.0"
+
+  - name: BLACKBAR_SQL_TIMEOUT
+    value: "240"
+
+  - name: BLACKBAR_BBOX_UNITS
+    value: "pixel"
+
+  - name: BLACKBAR_RENDER_DPI
+    value: "150"
+
+  - name: BLACKBAR_MAX_PAGES
+    value: "50"
+
+  - name: BLACKBAR_MAX_VIDEO_SECONDS
+    value: "180"
+
+  - name: BLACKBAR_VIDEO_SAMPLE_SECONDS
+    value: "1"
+
+  - name: BLACKBAR_MAX_AUDIO_SECONDS
+    value: "1800"
+
+  - name: BLACKBAR_WHISPER_MODEL
+    value: "small"
+
+  - name: BLACKBAR_LOG_LEVEL
+    value: "INFO"

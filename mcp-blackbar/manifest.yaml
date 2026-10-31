@@ -1,0 +1,10 @@
+
+version: 1
+
+name: "BlackBar MCP - Universal Media Redaction"
+
+description: >-
+  MCP server for AI-assisted redaction of sensitive
+  information in images, audio, video and PDF documents.
+  Built for Databricks Apps with Unity Catalog Volumes,
+  Databricks AI Gateway, Claude and Whisper.

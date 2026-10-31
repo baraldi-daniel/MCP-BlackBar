@@ -1,0 +1,9 @@
+
+fastmcp>=2.0,<4.0
+databricks-sdk>=0.40.0
+openai>=1.60.0,<3.0
+Pillow>=11.0.0
+numpy>=1.26.0
+opencv-python-headless>=4.10.0
+pytesseract>=0.3.13
+faster-whisper>=1.1.0

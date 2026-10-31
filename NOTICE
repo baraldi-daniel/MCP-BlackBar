@@ -1,0 +1,143 @@
+
+BlackBar MCP
+Copyright (c) 2026 Daniel Baraldi
+
+PROJECT NOTICE
+
+BlackBar MCP is an AI-assisted media redaction
+application designed to run on Databricks Apps.
+
+The project provides tools for detecting and
+redacting sensitive information from images,
+audio, video and PDF documents stored in
+Databricks Unity Catalog Volumes.
+
+COPYRIGHT AND OWNERSHIP
+
+Copyright (c) 2026 Daniel Baraldi.
+
+The original source code and documentation
+authored by Daniel Baraldi are subject to the
+terms described in the LICENCE file.
+
+Third-party software, models, libraries and
+services remain the property of their respective
+copyright holders.
+
+THIRD-PARTY SOFTWARE
+
+BlackBar MCP may use the following components:
+
+- FastMCP
+- FastAPI
+- Uvicorn
+- Databricks SDK for Python
+- OpenAI Python SDK
+- Pillow
+- NumPy
+- OpenCV
+- faster-whisper
+- CTranslate2
+- PyMuPDF
+- imageio-ffmpeg
+- FFmpeg
+- Pydantic
+
+These components are independently developed
+and distributed under their respective licenses.
+
+The inclusion of a component in this list does
+not imply ownership, endorsement or affiliation.
+
+Additional dependencies may be installed
+transitively by the project's package manager.
+
+The exact dependency inventory is determined
+by the packages and versions installed in the
+deployed environment.
+
+THIRD-PARTY LICENSE COMPLIANCE
+
+Each third-party component remains subject to
+its applicable license, copyright notices,
+attribution requirements and distribution terms.
+
+Before redistributing this project, review
+the licenses applicable to the exact versions
+and binaries being distributed.
+
+Where required, retain or distribute the
+corresponding third-party license texts and
+copyright notices.
+
+This NOTICE file is informational and does
+not replace those obligations.
+
+EXTERNAL PLATFORMS AND SERVICES
+
+BlackBar MCP is designed to integrate with:
+
+- Databricks Apps
+- Databricks Unity Catalog
+- Databricks SQL
+- Databricks AI Gateway
+- Claude models provided through the
+  configured Databricks endpoint
+
+Access to and use of these external platforms
+and services are subject to their respective
+agreements, permissions and usage policies.
+
+BlackBar MCP does not claim ownership of
+third-party brands, services, models or trademarks.
+
+DATA SECURITY AND PRIVACY
+
+BlackBar MCP may process personal information,
+health information and other sensitive data.
+
+Operators are responsible for ensuring that
+processing is authorized and compliant with
+applicable privacy, confidentiality and
+data protection requirements.
+
+Appropriate security controls should be
+implemented for:
+
+- Unity Catalog Volume access
+- Application authentication
+- Model endpoint permissions
+- Temporary file handling
+- Processing logs
+- Generated output files
+- Retention and deletion policies
+
+AUTOMATED REDACTION LIMITATIONS
+
+BlackBar MCP uses a combination of language
+models, speech recognition, document parsing
+and deterministic media-processing algorithms.
+
+These technologies may produce errors,
+including failures to detect sensitive content.
+
+The application does not guarantee complete
+anonymization or removal of all personal data.
+
+Automated redaction results should be verified
+before external disclosure, production use
+or processing in regulated environments.
+
+The successful creation of an output file
+does not itself establish that all sensitive
+information has been removed.
+
+DISCLAIMER
+
+BlackBar MCP is provided on an "AS IS" basis,
+without warranties or guarantees of complete
+anonymization, regulatory compliance or
+fitness for a particular purpose.
+
+See the LICENCE file for the full project
+license terms.
